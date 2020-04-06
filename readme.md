@@ -13,9 +13,7 @@ curl https://sh.rustup.rs -sSf | sh
 # 如不存在curl先安装
 sudo apt-get install curl
 ```
-下载缓慢，添加执行以下代码 [帮助]
-
-[帮助](https://mirrors.tuna.tsinghua.edu.cn/help/rustup/)
+下载缓慢，添加执行以下代码 [帮助](https://mirrors.tuna.tsinghua.edu.cn/help/rustup/)
 
 ```bash
  echo 'export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup' >> ~/.bash_profile
@@ -90,4 +88,26 @@ use 库名 as 别名;
 ```
 println!("这里是输出的内容");
 println!("{}表示占位符","我会替代占位符中的内容");
+```
+5. 声明变量
+
+整数类型
+| 长度    | 有符号位 | 无符号位 |
+|---------|----------|----------|
+| 128-bit | i128     | u128     |
+| 16-bit  | i16      | u16      |
+| 32-bit  | i32      | u32      |
+| 64-bit  | i64      | u64      |
+| 8-bit   | i8       | u8       |
+| arch    | isize    | usize    |
+
+```rust
+let num1 = 1;
+let num2:u32 = 2;
+// 字符
+let char1 = 'a'; 
+let str1 = "字符串";
+let mut str2 = "hello";
+str2 = "world";
+
 ```
