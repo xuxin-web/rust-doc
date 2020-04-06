@@ -1,10 +1,10 @@
 # Rust入门文档
 
-rust是一门编程语言，我选择这们语言的原因是，高性能、内存安全，有具体的规范，跨平台，如果web assembly能成为事实上的可移动二级制平台的话，前景可期。
+`rust` 是一门高性能、内存安全，规范明确，跨平台的编程语言，如果 `webAssembly` 能成为事实上的可移动二级制平台的话，前景更加可期。
 
 ## 安装
 
-如果想拥有更好的开发体验，使用官方搭建的脚手架 `rustup`。并在vscode中安装 `rust(lts)`插件。[帮助]("https://www.rust-lang.org/learn/get-started")
+如果想拥有更好的开发体验，使用官方搭建的脚手架 `rustup`。并在`vscode`中安装 `rust(lts)`插件。[帮助]:https://www.rust-lang.org/learn/get-started
 ```bash
 # linux下
 curl https://sh.rustup.rs -sSf | sh
